@@ -1,0 +1,14 @@
+- HOW TO USE
+
+     TERMINAL ---->
+
+# Login
+python fl_instagram.py login --username YOUR_USERNAME --password YOUR_PASSWORD
+# User info
+python fl_instagram.py userinfo --user_id 123456789
+# Follow someone
+python fl_instagram.py follow --user_id 123456789
+# Like on post and reel
+python fl_instagram.py like --media_id 1234567890123456789_12345678
+# Comment on someone post(reel)(post)
+python fl_instagram.py comment --media_id 1234567890123456789_12345678 --text "Nice photo!"
